@@ -1,0 +1,61 @@
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}
+
+#pgContent {
+    padding-top: 46px;
+}
+
+section#intro {
+    padding: 3em;
+    margin: 3em;
+}
+
+section#intro {
+    min-height: 450px;
+}
+
+section#about,
+section#skill,
+section#contact {
+    background-color: peachpuff;
+}
+
+a.socialLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
