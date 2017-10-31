@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg  fixed-top" style="background-color: #D9806F;">
             <span class="navbar-brand mb-0 h1">Noria Soumbou</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,24 +39,25 @@
                 </ul>
             </div>
         </nav>
-
     </header>
+
     <div id="pgContent" class="container-fluid">
         <section id="intro" class="row">
             <div class="media">
                 <div class="row">
                     <div class="media-body col-md-8 text-center">
-                        <h1 class="textname"> Hi !!! I'm Noria Soumbou <br> And I am an aspiring Web developper</h1>
                         <p>
-                            Yeah, I go to school and love coding.
+                            <span class="small textintro"> oh, hello there, nice to meet you !!! </span>
+                            <h1 class="textname"> I'm Noria Soumbou, <br> aspiring Web developper</h1>
+                            <span class="small textintro"> I am here to tell you a little bit about me.</span>
                         </p>
                         <div role="group">
                             <button id="btnAbout" type="button" class="btn btn-default btn-circle btn-xl" href="#about" data-toggle="tooltip" data-placement="top" title="About me"><span class="icon-wink">  </span></button>
                             <button id="btnproject" type="button" class="btn btn-primary btn-circle btn-xl" href="#projects" data-toggle="tooltip" data-placement="top" title="My projects"><span class="icon-briefcase" > </span></button>
-                            <button id="btnskill" type="button" class="btn btn-success btn-circle btn-xl" href="#about"><i class="glyphicon glyphicon-link"></i> Skills</button>
-                            <button id="btneduc" type="button" class="btn btn-info btn-circle btn-xl" data-toggle="tooltip" data-placement="top" title="Education"><span class="icon-mortar-board"> </span></button>
-                            <button id="btncontact" type="button" class="btn btn-warning btn-circle btn-xl"><span class="icon-envelop" data-toggle="tooltip" data-placement="top" title="Contact Me"></span></button>
-                            <a href="../assets/resume.pdf" type="button" class="btn btn-danger btn-circle btn-xl" target="_blank" data-toggle="tooltip" data-placement="top" title="Resume"><span class="icon-file-text2"></span></a>
+                            <button id="btnskill" type="button" class="btn btn-success btn-circle btn-xl" href="#skill" data-toggle="tooltip" data-placement="top" title="My Skills"><span class="icon-light-bulb"> </span></button>
+                            <button id="btneduc" type="button" class="btn btn-info    btn-circle btn-xl" href="#education" data-toggle="tooltip" data-placement="top" title="Education"><span class="icon-mortar-board"> </span></button>
+                            <button id="btncontact" type="button" class="btn btn-warning btn-circle btn-xl" href="#contact" data-toggle="tooltip" data-placement="top" title="Contact Me"><span class="icon-envelop"> </span></button>
+                            <a href="../assets/resume.pdf" class="circle-danger" target="_blank" data-toggle="tooltip" data-placement="top" title="Resume"><span class="icon-file-text2"> </span></a>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -66,7 +67,7 @@
             </div>
         </section>
 
-        <!--section id="about" class="row">
+        <section id="about" class="row">
             <h3 class="mb2"> Who am I ?</h3>
             <p>
                 I am not all that good about talking about me, but let's try. I love create, build, programming, and fashion. I make a lot of DIY and a bunch a sewing when I feel like. I am the co-founder of
@@ -75,66 +76,115 @@
             </p>
         </section>
 
+        <div class="mx-auto sectionTitle">
+            <h2 class="text-center"> <img src="assets/arrowr.png"> Projects <img src="assets/arrowl.png"></h2>
+        </div>
+
         <section id="projects" class="row">
+
             <div class="card-deck">
                 <div class="card col-md">
                     <img class="card-img-top" src="assets/babyzakyalogo.png" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Baby Zakya</h4>
-                        <p class="card-text">Baby Zakya is a shop located in Libreville, specialised in nursery.</p>
+                        <div class="overlay">
+                            <p class="card-text textOverlay">Baby Zakya is a shop located in Libreville, specialised in nursery.<br>
+                                <a type="button" target="_blank" href="https://www.babyzakya.com" class="btn btn-primary"> Visit website </a></p>
+                        </div>
                     </div>
-                    <a type="button" target="_blank" href="https://www.babyzakya.com" class="btn btn-default"> Visit website </a>
                 </div>
                 <div class="card  col-md">
                     <img class="card-img-top" src="assets/agalogo.png" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title"> Atlanta Gabonese Association</h4>
-                        <p class="card-text"> Atlanta Gabonese Association is a non-profit organisation charged to represent the gabonese community in Atlanta.</p>
+                        <div class="overlay">
+                            <p class="card-text textOverlay"> Atlanta Gabonese Association is a non-profit organisation charged to represent the gabonese community in Atlanta.<br>
+                                <a type="button" target="_blank" href="https://soumbounoria.wixsite.com/agassociation2" class="btn btn-primary "> Visit website </a></p>
+                        </div>
                     </div>
-                    <a type="button" target="_blank" href="https://soumbounoria.wixsite.com/agassociation2" class="btn btn-default"> Visit website </a>
+
                 </div>
                 <div class="card  col-md">
                     <img class="card-img-top" src="assets/mbflogo.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Mabbyalas Foundation</h4>
-                        <p class="card-text">This is a non-profit organisation.</p>
+                        <div class="overlay">
+                            <p class="card-text textOverlay">This is a non-profit organisation.<br>
+                                <a type="button" target="_blank" href="https://www.mabbyalasfoundation.org" class="btn btn-primary"> Visit website </a></p>
+                        </div>
                     </div>
-                    <a type="button" target="_blank" href="https://www.mabbyalasfoundation.org" class="btn btn-default"> Visit website </a>
+
                 </div>
             </div>
         </section>
 
-        <section id="Skill" class="row">
+        <div class="mx-auto sectionTitle">
+            <h2 class="text-center"> <img src="assets/arrowr.png"> Skills <img src="assets/arrowl.png"></h2>
+        </div>
+        <section id="skill" class="row justify-content-center">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <p class="circle"> HTML </p>
+                </li>
+                <li class="nav-item">
+                    <p class="circle"> CSS </p>
+                </li>
+                <li class="nav-item">
+                    <p class="circle">Javascript</p>
+                </li>
+                <li class="nav-item">
+                    <p class="circle"> jQuery</p>
+                </li>
+                <li class="nav-item">
+                    <p class="circle"> PHP </p>
+                </li>
+                <li class="nav-item">
+                    <p class="circle">Bootstrap</p>
+                </li>
+                <li class="nav-item">
+                    <p class="circle">Ionic</p>
+                </li>
+                <li class="nav-item">
+                    <p class="circle">Java</p>
+                </li>
+            </ul>
 
         </section>
 
         <section id="education" class="row">
-
+            <div class="mx-auto sectionTitle">
+                <h2 class="text-center"> <img src="assets/arrowr.png"> Education <img src="assets/arrowl.png"></h2>
+            </div>
             <div class="card-deck">
-                <div class="card border-secondary mb-3">
-                    <div class="card-body text-secondary">
-                        <h4 class="card-title">IAI</h4>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title text-info">IAI</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
-                <div class="card border-danger mb-3">
-                    <div class="card-body text-danger">
-                        <h4 class="card-title">Georgia State University | Perimeter College</h4>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title text-info">Georgia State University | Perimeter College</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
-                <div class="card border-info mb-3">
-                    <div class="card-body text-info">
-                        <h4 class="card-title">Georgia State University</h4>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title text-info">Georgia State University</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
             </div>
 
         </section>
-        <section id="contact" class="row">
-            <p> Wanna get in touch or talk to me about a project? Just <a class="typeform-share" href="https://noria1.typeform.com/to/t7SeLY" data-mode="popup" target="_blank"> fill the form </a> or send an email to noria.soumbou@gmail.com </p>
 
+        <div class="mx-auto sectionTitle">
+            <h2 class="text-center"> <img src="assets/arrowr.png"> Contacts <img src="assets/arrowl.png"></h2>
+        </div>
+
+        <section id="contact" class="row">
+
+            <p> Wanna get in touch or talk to me about a project? Just <a class="typeform-share" href="https://noria1.typeform.com/to/t7SeLY" data-mode="popup" target="_blank"> fill the form </a> or send an email to noria.soumbou@gmail.com </p>
             <script>
                 (function() {
                     var qs, js, q, s, d = document,
@@ -152,23 +202,20 @@
                     }
                 })()
             </script>
-            <p> Let's get social? Follow my online profiles on Facebook Github and Linkedin. </p>
-            <ul>
+            <p> Let's get social? Follow my online profiles on Facebook Github and Linkedin. </p><br>
+            <ul class="nav">
                 <li>
-                    <a class="socialLink" target="_blank" href="https://www.facebook.com/snorialyna"> <span class="icon-brand"> Facebook</span> </a>
+                    <a class="socialLink nav-item" target="_blank" href="https://www.facebook.com/snorialyna"> <span class="icon-brand"> Facebook</span> </a>
                 </li>
                 <li>
-                    <a class="socialLink" target="_blank" href="https://github.com/Nolyna"><span class="icon-brand2"> Github</span></a>
+                    <a class="socialLink nav-item" target="_blank" href="https://github.com/Nolyna"><span class="icon-brand2"> Github</span></a>
                 </li>
-                <li><a class="socialLink" target="_blank" href="https://www.linkedin.com/in/noria-soumbou-2a15048a"><span class="icon-brand3"> LinkedIn</span></a></li>
+                <li><a class="socialLink nav-item" target="_blank" href="https://www.linkedin.com/in/noria-soumbou-2a15048a"><span class="icon-brand3"> LinkedIn</span></a></li>
             </ul>
         </section>
-        <section id="resume" class="row">
-            <object width="400" height="400" data="helloworld.swf"></object>
-        </section>
-    </div-->
+    </div>
     <footer>
-        <P>© 2017 <strong> Noria Soumbou</strong> All Rights Reserved. </P>
+        <P class="text-right">© 2017 <strong> Noria Soumbou</strong> All Rights Reserved. </P>
     </footer>
 
 
@@ -180,13 +227,13 @@
     <script>
         $(document).ready(function() {
             var images = Array(
-                "assets/1.png",
                 "assets/2.jpg",
                 "assets/3.jpg",
                 "assets/4.jpg",
                 "assets/5.jpg",
                 "assets/6.jpg",
-                "assets/7.jpg"
+                "assets/7.jpg",
+                "assets/me.png",
             );
             $(".textname").hover(function() {
                 var image = images[Math.floor(Math.random() * images.length)];
@@ -216,7 +263,7 @@
 
             $("#btnskill").click(function() {
                 $('html,body').animate({
-                        scrollTop: $("#skills").offset().top
+                        scrollTop: $("#skill").offset().top
                     },
                     'slow');
             });
