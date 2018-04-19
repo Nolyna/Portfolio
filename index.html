@@ -1,301 +1,345 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> Noria Soumbou</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Noria Soumbou Portfolio</title>
+    <meta name="author" content="Noria Soumbou">
+    <meta name="description" content="portfolio - personal website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg  fixed-top" style="background-color: #D9806F;">
-            <span class="navbar-brand mb-0 h1">Noria Soumbou</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse invisible justify-content-end" id="navbarList">
-                <ul id="navLink" class="nav navbar-nav ">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skill</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class="responsive-header visible-xs visible-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top-section">
+                        <div class="profile-image">
+                            <img src="img/profile.jpg" alt="Noria">
+                        </div>
+                        <div class="profile-content">
+                            <h3 class="profile-title">Noria Soumbou</h3>
+                            <p class="profile-description">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
+            <div class="main-navigation responsive-menu">
+                <ul class="navigation">
+                    <li><a href="#top"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#about"><i class="fa fa-user"></i>About Me</a></li>
+                    <li><a href="#Skills"><i class="fa fa-pencil"></i> Skills</a></li>
+                    <li><a href="#projects"><i class="fa fa-newspaper-o"></i>My Work</a></li>
+                    <li><a href="#contact"><i class="fa fa-envelope"></i>Contact Me</a></li>
                 </ul>
             </div>
-        </nav>
-    </header>
-
-    <div id="pgContent" class="container-fluid">
-        <section id="intro" class="row">
-            <div class="media">
-                <div class="row">
-                    <div class="media-body col-md-8 text-center">
-                        <p>
-                            <span class="small textintro"> oh, hello there, nice to meet you !!! </span>
-                            <h1 class="textname"> I'm Noria Soumbou, <br> aspiring Web developper</h1>
-                            <span class="small textintro"> I am here to tell you a little bit about me.</span>
-                        </p>
-                        <div role="group">
-                            <button id="btnAbout" type="button" class="btn btn-default btn-circle btn-xl" href="#about" data-toggle="tooltip" data-placement="top" title="About me"><span class="icon-wink">  </span></button>
-                            <button id="btnproject" type="button" class="btn btn-primary btn-circle btn-xl" href="#projects" data-toggle="tooltip" data-placement="top" title="My projects"><span class="icon-briefcase" > </span></button>
-                            <button id="btnskill" type="button" class="btn btn-success btn-circle btn-xl" href="#skill" data-toggle="tooltip" data-placement="top" title="My Skills"><span class="icon-light-bulb"> </span></button>
-                            <button id="btneduc" type="button" class="btn btn-info    btn-circle btn-xl" href="#education" data-toggle="tooltip" data-placement="top" title="Education"><span class="icon-mortar-board"> </span></button>
-                            <button id="btncontact" type="button" class="btn btn-warning btn-circle btn-xl" href="#contact" data-toggle="tooltip" data-placement="top" title="Contact Me"><span class="icon-envelop"> </span></button>
-                            <a href="../assets/resume.pdf" class="circle-danger" target="_blank" data-toggle="tooltip" data-placement="top" title="Resume"><span class="icon-file-text2"> </span></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="d-flex ml img-fluid" id="myimage" src="assets/me.png " alt="An invisible image of me">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="row">
-            <h3 class="mb2"> Who am I ?</h3>
-            <p>
-                I am not all that good about talking about me, but let's try. I love create, build, programming, and fashion. I make a lot of DIY and a bunch a sewing when I feel like. I am the co-founder of
-                <a href="https://www.bnsptechnology.com" target="_blank"> BNSP Technology</a>, a company that provides develop apps, websites and offer formation (we just started, getting ready to grow). I am actually working on some projects, ideas from
-                me lol!! I am studying at Georgia State University. I like to create websites and build apps to improve, facilitate life and/ or just for fun.
-            </p>
-        </section>
-
-        <div class="mx-auto sectionTitle">
-            <h2 class="text-center"> <img src="assets/arrowr.png"> Projects <img src="assets/arrowl.png"></h2>
         </div>
-
-        <section id="projects" class="row">
-
-            <div class="card-deck">
-                <div class="card col-md">
-                    <img class="card-img-top" src="assets/babyzakyalogo.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title">Baby Zakya</h4>
-                        <div class="overlay">
-                            <p class="card-text textOverlay">Baby Zakya is a shop located in Libreville, specialised in nursery.<br>
-                                <a type="button" target="_blank" href="https://www.babyzakya.com" class="btn btn-primary"> Visit website </a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card  col-md">
-                    <img class="card-img-top" src="assets/agalogo.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title"> Atlanta Gabonese Association</h4>
-                        <div class="overlay">
-                            <p class="card-text textOverlay"> Atlanta Gabonese Association is a non-profit organisation charged to represent the gabonese community in Atlanta.<br>
-                                <a type="button" target="_blank" href="https://soumbounoria.wixsite.com/agassociation2" class="btn btn-primary "> Visit website </a></p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="card  col-md">
-                    <img class="card-img-top" src="assets/mbflogo.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title">Mabbyalas Foundation</h4>
-                        <div class="overlay">
-                            <p class="card-text textOverlay">This is a non-profit organisation.<br>
-                                <a type="button" target="_blank" href="https://www.mabbyalasfoundation.org" class="btn btn-primary"> Visit website </a></p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <div class="mx-auto sectionTitle">
-            <h2 class="text-center"> <img src="assets/arrowr.png"> Skills <img src="assets/arrowl.png"></h2>
-        </div>
-        <section id="skill" class="row justify-content-center">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <p class="circle"> HTML </p>
-                </li>
-                <li class="nav-item">
-                    <p class="circle"> CSS </p>
-                </li>
-                <li class="nav-item">
-                    <p class="circle">Javascript</p>
-                </li>
-                <li class="nav-item">
-                    <p class="circle"> jQuery</p>
-                </li>
-                <li class="nav-item">
-                    <p class="circle"> PHP </p>
-                </li>
-                <li class="nav-item">
-                    <p class="circle">Bootstrap</p>
-                </li>
-                <li class="nav-item">
-                    <p class="circle">Ionic</p>
-                </li>
-                <li class="nav-item">
-                    <p class="circle">Java</p>
-                </li>
-            </ul>
-
-        </section>
-
-        <section id="education" class="row">
-            <div class="mx-auto sectionTitle">
-                <h2 class="text-center"> <img src="assets/arrowr.png"> Education <img src="assets/arrowl.png"></h2>
-            </div>
-            <div class="card-deck">
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <h4 class="card-title text-info">IAI</h4>
-                        <p class="card-text"> License degree - Computer science.</p>
-                    </div>
-                </div>
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <h4 class="card-title text-info">Georgia State University | Perimeter College</h4>
-                        <p class="card-text"> Associate degree - Computer science.</p>
-                    </div>
-                </div>
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <h4 class="card-title text-info">Georgia State University</h4>
-                        <p class="card-text"> Working toward Bachelor degree - Computer science.</p>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <div class="mx-auto sectionTitle">
-            <h2 class="text-center"> <img src="assets/arrowr.png"> Contacts <img src="assets/arrowl.png"></h2>
-        </div>
-
-        <section id="contact" class="row">
-
-            <p> Wanna get in touch or talk to me about a project? Just <a class="typeform-share" href="https://noria1.typeform.com/to/t7SeLY" data-mode="popup" target="_blank"> fill the form </a> or send an email to noria.soumbou@gmail.com </p>
-            <script>
-                (function() {
-                    var qs, js, q, s, d = document,
-                        gi = d.getElementById,
-                        ce = d.createElement,
-                        gt = d.getElementsByTagName,
-                        id = "typef_orm_share",
-                        b = "https://embed.typeform.com/";
-                    if (!gi.call(d, id)) {
-                        js = ce.call(d, "script");
-                        js.id = id;
-                        js.src = b + "embed.js";
-                        q = gt.call(d, "script")[0];
-                        q.parentNode.insertBefore(js, q)
-                    }
-                })()
-            </script>
-            <p> Let's get social? Follow my online profiles on Facebook Github and Linkedin. </p><br>
-            <ul class="nav">
-                <li>
-                    <a class="socialLink nav-item" target="_blank" href="https://www.facebook.com/snorialyna"> <span class="icon-brand"> Facebook</span> </a>
-                </li>
-                <li>
-                    <a class="socialLink nav-item" target="_blank" href="https://github.com/Nolyna"><span class="icon-brand2"> Github</span></a>
-                </li>
-                <li><a class="socialLink nav-item" target="_blank" href="https://www.linkedin.com/in/noria-soumbou-2a15048a"><span class="icon-brand3"> LinkedIn</span></a></li>
-            </ul>
-        </section>
     </div>
-    <footer>
-        <P class="text-right">© 2017 <strong> Noria Soumbou</strong> All Rights Reserved. </P>
-    </footer>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar-menu hidden-xs hidden-sm">
+        <div class="top-section">
+            <div class="profile-image">
+                <img src="img/profile.jpg" alt="Noria">
+            </div>
+            <h3 class="profile-title">Noria</h3>
+            <p class="profile-description">Web Developer</p>
+        </div>
+        <!-- top-section -->
+        <div class="main-navigation">
+            <ul class="navigation">
+                <li><a href="#top"><i class="fa fa-globe"></i>Welcome</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About Me</a></li>
+                <li><a href="#Skills"><i class="fa fa-pencil"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fa fa-paperclip"></i>My Work</a></li>
+                <li><a href="#contact"><i class="fa fa-link"></i>Contact Me</a></li>
+            </ul>
+        </div>
+        <!-- .main-navigation -->
+        <div class="social-icons">
+            <ul>
+                <!--li><a href="https://www.facebook.com/snorialyna"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://github.com/Nolyna"><i class="fa fa-twitter"></i></a></li-->
+                <li><a href="https://www.linkedin.com/in/noria-soumbou-2a15048a"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/Nolyna"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+        <!-- .social-icons -->
+    </div>
+    <!-- .sidebar-menu -->
 
 
+    <div class="banner-bg" id="top">
+        <div class="banner-overlay"></div>
+        <div class="welcome-text">
+            <h2>Noria Soumbou | Personal Portfolio</h2>
+            <h5></h5>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+        <div class="fluid-container">
+
+            <div class="content-wrapper">
+
+                <!-- ABOUT -->
+                <div class="page-section" id="about">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">A Little Bit About Me</h4>
+                            <div class="about-image">
+                                <img src="img/10.jpg" alt="about me">
+                            </div>
+                            <p>I am not all that good about talking about me, but let's try. <br> I grew up in Libreville, Gabon, now live in Atlanta, USA. I came here for school, I am studying Computer Science at Georgia State University. I’ve always been
+                                a creative person, and take great pleasure in designing and building things. From using my childhood friends as guinea pig or teammate to bigger projects, I always love to see my ideas coming to life. I love animals, movies
+                                and art but What I really love is to create and build.<br> I am actually working toward my bachelor Degree in Computer Science. <br> I am the co-founder of <a href="https://www.bnsptechnology.com" target="_blank"> BNSP Technology</a>,
+                                a company that offer development of web and mobile applications, and CS formation. <br> I am also working on some personnal projects. When I am not coding, you can find me doing some crafts or cooking experiences. And If
+                                I am not being creative then I enjoy that time with my friends.
+                            </p>
+                            <hr>
+                        </div>
+                    </div>
+                    <!-- #about -->
+                </div>
+
+                <!-- Skills -->
+                <div class="page-section" id="Skills">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">What I do:</h4>
+                            <div class="about-image">
+                                <img src="img/12.jpg" alt="about me">
+                            </div>
+                            <p>My skills are broad: front end to back end development. I enjoy each aspect, and love building sites & mobile apps from start to finish. <br> My main area of expertise is back-end in web development but I also have a few experience
+                                in mobile and software development. <br> Check out my
+                                <a href="resume.pdf" target="_blank"> resume</a>
+                            </p>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <table>
+                                        <tr>
+                                            <td> HTML 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td> CSS 3 </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Bootstrap </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-md-3">
+                                    <table>
+                                        <tr>
+                                            <td> PHP</td>
+                                        </tr>
+                                        <tr>
+                                            <td> Javascript</td>
+                                        </tr>
+                                        <tr>
+                                            <td> Jquery</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-md-3">
+                                    <table>
+                                        <tr>
+                                            <td> Ionic</td>
+                                        </tr>
+                                        <tr>
+                                            <td> Java</td>
+                                        </tr>
+                                        <tr>
+                                            <td> Python </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Wordpress</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                    <!-- #Skills -->
+                </div>
 
 
-    <script src="js/jquery.min.js "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js " integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4 " crossorigin="anonymous "></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js " integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1 " crossorigin="anonymous "></script>
-    <script>
-        $(document).ready(function() {
-            var images = Array(
-                "assets/2.jpg",
-                "assets/3.jpg",
-                "assets/4.jpg",
-                "assets/5.jpg",
-                "assets/6.jpg",
-                "assets/7.jpg",
-                "assets/me.png",
-            );
-            $(".textname").hover(function() {
-                var image = images[Math.floor(Math.random() * images.length)];
-                $("#myimage").attr("src", image);
-            });
-            $("li.fade").hover(function() {
-                $(this).fadeOut(100);
-                $(this).fadeIn(500);
-            });
+                <!-- PROJECTS -->
+                <div class="page-section" id="projects">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">A little bit of my work</h4>
+                        </div>
+                    </div>
+                    <div class="row projects-holder">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="project-item">
+                                <img src="img/agnauslogo.png" alt=" AGNAUS">
+                                <div class="project-hover">
+                                    <div class="inside">
+                                        <h5><a href="http://agnaus.net/">Agnau's</a></h5>
+                                        <p> I love to be creative and build stuff. Agnau's is a website to showcase some of my craft.</p>
+                                        <a type="button" target="_blank" href="http://agnaus.net/" class="btn btn-primary"> Visit website </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="project-item">
+                                <img src="img/pmlogo.jpg" alt=" PETIT MARCHE">
+                                <div class="project-hover">
+                                    <div class="inside">
+                                        <h5><a href="http://petitmarche-gabon.com/">Petit marche Gabon</a></h5>
+                                        <p> Personal projet in construction, I hope to launch it by the end of summer 2018.<br> Petit Marche (Litte Market in English) is a listing website and e-commerce website.</p>
+                                        <a type="button" target="_blank" href="http://petitmarche-gabon.com/" class="btn btn-primary"> Visit website </a>
+                                        <a type="button" target="_blank" href="https://www.facebook.com/LittleMarketLbv/" class="btn btn-info"> Visit Facebook page </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="project-item">
+                                <img src="img/codelogo.png" alt="">
+                                <div class="project-hover">
+                                    <div class="inside">
+                                        <h5><a href="https://devpost.com/nolyna">My Hackathons projects</a></h5>
+                                        <p>I like to participate in hackathons, this is an overview of the projects I work on and my wins.</p>
+                                        <a type="button" target="_blank" href="https://devpost.com/nolyna" class="btn btn-primary"> Visit website </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="project-item">
+                                <img src="img/babyzakyalogo.png" alt="BABY ZAKYA">
+                                <div class="project-hover">
+                                    <div class="inside">
+                                        <h5><a href="https://www.babyzakya.com">Baby Zakya</a></h5>
+                                        <p>Baby Zakya is a shop located in Libreville-Gabon, specialised in nursery.</p>
+                                        <a type="button" target="_blank" href="https://www.babyzakya.com" class="btn btn-primary"> Visit website </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="project-item">
+                                <img src="img/agalogo.png" alt="ATLANTA GABONESE ASSOCIATION">
+                                <div class="project-hover">
+                                    <div class="inside">
+                                        <h5><a href="https://soumbounoria.wixsite.com/agassociation2">Atlanta Gabonese Association</a></h5>
+                                        <p>Atlanta Gabonese Association is a non-profit organisation charged to represent the gabonese community in Atlanta.</p>
+                                        <a type="button" target="_blank" href="https://soumbounoria.wixsite.com/agassociation2" class="btn btn-primary"> Visit website </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="project-item">
+                                <img src="img/mbflogo.jpg" alt="MABBYALAS FOUNDATION">
+                                <div class="project-hover">
+                                    <div class="inside">
+                                        <h5><a href="https://www.mabbyalasfoundation.org/">Mabbyalas Foundation</a></h5>
+                                        <p>This is a non-profit organisation.</p>
+                                        <a type="button" target="_blank" href="https://www.mabbyalasfoundation.org/" class="btn btn-primary"> Visit website </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            // scroll click on button
-            $("#btnAbout").on("click", function(event) {
-                event.preventDefault();
-                var targetDiv = $(this).attr('href');
-                $('body,html').animate({
-                    scrollTop: $(targetDiv).offset().top
-                }, 600);
-            });
+                    </div>
+                    <!-- .projects-holder -->
+                </div>
+                <hr>
 
-            $("#btnproject").click(function() {
-                $('html,body').animate({
-                        scrollTop: $("#projects").offset().top
-                    },
-                    'slow');
-            });
+                <!-- CONTACT -->
+                <div class="page-section" id="contact">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">PLACE TO TALK WITH ME</h4>
+                            <p>Whether you would like to get extra information about me, on any of my work, or just say hello then I would love to hear from you.
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="typeform-widget" data-url="https://noria1.typeform.com/to/UfQx87" style="width: 100%; height: 500px;"></div>
+                        <script>
+                            (function() {
+                                var qs, js, q, s, d = document,
+                                    gi = d.getElementById,
+                                    ce = d.createElement,
+                                    gt = d.getElementsByTagName,
+                                    id = "typef_orm",
+                                    b = "https://embed.typeform.com/";
+                                if (!gi.call(d, id)) {
+                                    js = ce.call(d, "script");
+                                    js.id = id;
+                                    js.src = b + "embed.js";
+                                    q = gt.call(d, "script")[0];
+                                    q.parentNode.insertBefore(js, q)
+                                }
+                            })()
+                        </script>
+                        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">
+                            powered by <a href="https://admin.typeform.com/signup?utm_campaign=UfQx87&utm_source=typeform.com-10886587-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a>
+                        </div>
+                        <!--form action="#" method="post" class="contact-form">
+                            <fieldset class="col-md-4 col-sm-6">
+                                <input type="text" id="your-name" placeholder="Your Name...">
+                            </fieldset>
+                            <fieldset class="col-md-4 col-sm-6">
+                                <input type="email" id="email" placeholder="Your Email...">
+                            </fieldset>
+                            <fieldset class="col-md-4 col-sm-12">
+                                <input type="text" id="your-subject" placeholder="Subject...">
+                            </fieldset>
+                            <fieldset class="col-md-12 col-sm-12">
+                                <textarea name="message" id="message" cols="30" rows="6" placeholder="Leave your message..."></textarea>
+                            </fieldset>
+                            <fieldset class="col-md-12 col-sm-12">
+                                <input type="submit" class="button big default" value="Send Message">
+                            </fieldset>
+                        </form-->
+                    </div>
+                    <!-- .contact-form -->
+                </div>
+                <hr>
 
+                <div class="row" id="footer">
+                    <div class="col-md-12 text-center">
+                        <p class="copyright-text">Copyright &copy; 2018 Noria Soumbou</p>
+                    </div>
+                </div>
 
-            $("#btnskill").click(function() {
-                $('html,body').animate({
-                        scrollTop: $("#skill").offset().top
-                    },
-                    'slow');
-            });
+            </div>
 
-            $("#btneduc").click(function() {
-                $('html,body').animate({
-                        scrollTop: $("#education").offset().top
-                    },
-                    'slow');
-            });
+        </div>
+    </div>
 
-            $("#btncontact").click(function() {
-                $('html,body').animate({
-                        scrollTop: $("#contact").offset().top
-                    },
-                    'slow');
-            });
+    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="js/min/plugins.min.js"></script>
+    <script src="js/min/main.min.js"></script>
 
-
-            // Update nav when scrolling
-            $(window).scroll(function() {
-                if ($(document).scrollTop() > 300) {
-                    $('#navbarList').removeClass('invisible');
-                    $('#navbarList').addClass('visible');
-                } else {
-                    $('#navbarList').removeClass('visible');
-                    $('#navbarList').addClass('invisible');
-                }
-            });
-
-        });
-    </script>
 </body>
 
 </html>
