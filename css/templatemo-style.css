@@ -583,9 +583,13 @@ h3.profile-title {
 
 /*------ projects ------ */
 
+.card{
+    height: 550px;
+}
+
 .card img{
     height: 300px;
-    width: 300px;
+    width: 100%;
     
 }
 
